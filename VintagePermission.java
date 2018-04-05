@@ -1,5 +1,7 @@
 package me.VintageGaming.VintageVault;
 
+import java.util.List;
+
 public class VintagePermission {
 
   public String getName() {
