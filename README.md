@@ -1,7 +1,7 @@
 # VintageVaultAPI
 VintageVault - Automatic Vault. (Beta)
 
-VintageVaultApi is holds the needed methods to Work Fully with VintageVault.
+VintageVaultMethods holds the needed methods to Work Fully with VintageVault.
 
 Permissions Hook for Permissions Plugins:
 ------------------------------------------------------------------------------------------------------------------------------------
@@ -30,3 +30,11 @@ public VintageEconomy VVEconomy() {
     return new VintageEconomy();
 }
 </code>
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+Hooking into VintageVault:
+------------------------------------------------------------------------------------------------------------------------------------
+Instructions:
+To hook into vault, all you have to do is import VintageVault, and use either VintagePermission.<Method> to use Permission Methods, or do VintageEconomy.<Method> to use Economy Methods.
