@@ -5,7 +5,7 @@ VintageVaultMethods holds the needed methods to Work Fully with VintageVault.
 
 Hooking into VintageVault:
 ------------------------------------------------------------------------------------------------------------------------------------
-Instructions: Add to VintageVault in plugin.yml for Depends
+Instructions: Add Depends: [VintageVault] in plugin.yml
 To hook into vault, all you have to do is import VintageVault, and use either VintagePermission.<Method> to use Permission Methods, or do VintageEconomy.<Method> to use Economy Methods.
 
 ------------------------------------------------------------------------------------------------------------------------------------
