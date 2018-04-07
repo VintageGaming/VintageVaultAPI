@@ -3,6 +3,15 @@ VintageVault - Automatic Vault. (Beta)
 
 VintageVaultMethods holds the needed methods to Work Fully with VintageVault.
 
+Hooking into VintageVault:
+------------------------------------------------------------------------------------------------------------------------------------
+Instructions:
+To hook into vault, all you have to do is import VintageVault, and use either VintagePermission.<Method> to use Permission Methods, or do VintageEconomy.<Method> to use Economy Methods.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 Permissions Hook for Permissions Plugins:
 ------------------------------------------------------------------------------------------------------------------------------------
 Step 1: Add VintagePermission file into your plugin and fill in all methods so they work with your Permissions functions correctly
@@ -32,9 +41,3 @@ public VintageEconomy VVEconomy() {
 </code>
 
 ------------------------------------------------------------------------------------------------------------------------------------
-
-
-Hooking into VintageVault:
-------------------------------------------------------------------------------------------------------------------------------------
-Instructions:
-To hook into vault, all you have to do is import VintageVault, and use either VintagePermission.<Method> to use Permission Methods, or do VintageEconomy.<Method> to use Economy Methods.
