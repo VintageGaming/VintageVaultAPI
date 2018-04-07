@@ -1,4 +1,4 @@
-package me.VintageGaming.VintageVault;
+package <Your Package>;
 
 import java.util.List;
 
