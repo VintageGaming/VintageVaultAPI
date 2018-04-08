@@ -23,6 +23,14 @@ public class VintagePermission {
   public boolean setPlayerGroup(String player, String group) {
 
   }
+  
+  public String getGroup(String player) {
+			
+	}
+	
+	public List<String> getGroups() {
+		
+	}
 
   public boolean createGroup(String group) {
 
